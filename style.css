@@ -1,0 +1,198 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #093132;
+}
+h1{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+/* h1{
+
+    color: #fff;
+    text-transform: uppercase;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#fff);
+    line-height: 0.70em;
+} */
+
+.nav-bar{
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+}
+.nav-bar .nav-logo{
+    margin-top: 50px;
+}
+.nav-bar #logo{
+    background: url('../data/logo.svg')no-repeat;
+    overflow: hidden;
+    width: 300px;
+    height: 100px;
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+.nav-iterm{
+    margin: 0 3rem;
+    
+}
+.nav-iterm:last-child{
+    margin-right: 0;
+}
+.nav-iterm a{
+    color: #333333;
+    text-transform: uppercase;
+   
+}
+.nav-bar .nav-login{
+    background: linear-gradient(0deg, #7FF272, #7FF272);
+    /* width: 111px;
+    height: 35px; */
+    border-radius: 100px;
+    padding: 20px 51px;
+}
+/* end of nav */
+
+/* cover */
+
+
+.container{
+    height: 57rem;
+    width: 100%;
+    background: #093132;
+    position: relative;
+
+}
+
+.container .coverside-left h1{
+    text-transform: uppercase;
+    color: seashell;
+    margin: 0;
+    font-size: 86px;
+    font-family: Franklin Gothic Medium;
+    padding: 1.5em 0 0 1.5em;
+}
+.getstarted {
+    background: #7FF272;
+    border-radius: 100px;
+    position: absolute;
+    width: 199.76px;
+    height: 73.63px;
+    left: 190px;
+    top: 364px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.backgorund-design{
+    width: 100%;
+    height: 30rem;
+}
+.crystals {
+ background: url("../data/crystals.svg")no-repeat;
+ width: 10%;
+ height: 50rem;
+ position: absolute;
+ top: 40%;
+ 
+}
+
+
+#wave1{
+    background: url('../data/Path4.png')no-repeat;
+    overflow: hidden;
+    width: 100%;
+    height: 25rem;
+    position: absolute;
+    top:75%
+}
+#wave2{
+    background: url('../data/wave2.svg')no-repeat ;
+    overflow: hidden;
+    width: 100%;
+    height: 35rem;
+    position: absolute;
+    top:90%
+}
+.section1{
+    background:#093132;
+    height: 50rem;
+    width: 100%;
+    position: relative;
+}
+.section1 .big-crystal{
+    background: url('../data/crystal.svg')no-repeat;
+    overflow: hidden;
+    width: 40%;
+    height: 30rem;
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    transform: translate(-50px,-50%);
+}
+
+/* section1 end */
+
+
+/* section2  */
+
+.section2{
+    width: 100%;
+    height: 100rem;
+    background: white;
+    position: relative;
+}
+
+#wave3{
+    background: url('../data/wave3.png')no-repeat ;
+    overflow: hidden;
+    width: 100%;
+    height: 35rem;
+    position: absolute;
+    top: 65%;
+}
+.section2 .title{
+    position: relative;
+    top: -15%;
+}
+.section2 .title h1{
+    color: black;
+    font-size: 90px;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+}
+
+/* content about us */
+
+.section2 .content-aboutus{
+    width: 100%;
+    position: relative;
+    top: -10%;
+}
+.section2 .content-aboutus .about{
+    width: 40%;
+    position: absolute;
+    left: 190px;
+
+}
+.section2 .content-aboutus h3{
+    font-size: 64px;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+.section2 .content-aboutus p{
+    font-size: 36px;
+    font-family: Gafata;
+    font-style: normal;
+    color: #106D1A;
+}
