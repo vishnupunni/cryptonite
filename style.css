@@ -97,7 +97,7 @@ a{
     height: 30rem;
 }
 .crystals {
- background: url("../data/crystals.svg")no-repeat;
+ background: url("./data/crystals.svg")no-repeat;
  width: 10%;
  height: 50rem;
  position: absolute;
@@ -107,7 +107,7 @@ a{
 
 
 #wave1{
-    background: url('../data/Path4.png')no-repeat;
+    background: url('./data/Path4.png')no-repeat;
     overflow: hidden;
     width: 100%;
     height: 25rem;
@@ -115,7 +115,7 @@ a{
     top:75%
 }
 #wave2{
-    background: url('../data/wave2.svg')no-repeat ;
+    background: url('./data/wave2.svg')no-repeat ;
     overflow: hidden;
     width: 100%;
     height: 35rem;
@@ -129,7 +129,7 @@ a{
     position: relative;
 }
 .section1 .big-crystal{
-    background: url('../data/crystal.svg')no-repeat;
+    background: url('./data/crystal.svg')no-repeat;
     overflow: hidden;
     width: 40%;
     height: 30rem;
@@ -152,7 +152,7 @@ a{
 }
 
 #wave3{
-    background: url('../data/wave3.png')no-repeat ;
+    background: url('./data/wave3.png')no-repeat ;
     overflow: hidden;
     width: 100%;
     height: 35rem;
