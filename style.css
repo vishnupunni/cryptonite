@@ -30,7 +30,7 @@ a{
     margin-top: 50px;
 }
 .nav-bar #logo{
-    background: url('../data/logo.svg')no-repeat;
+    background: url('./data/logo.svg')no-repeat;
     overflow: hidden;
     width: 300px;
     height: 100px;
