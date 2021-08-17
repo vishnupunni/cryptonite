@@ -30,7 +30,7 @@ a{
     margin-top: 50px;
 }
 .nav-bar #logo{
-    background: url('./data/logo.svg')no-repeat;
+    background: url('../data/logo.svg')no-repeat;
     overflow: hidden;
     width: 300px;
     height: 100px;
@@ -64,11 +64,13 @@ a{
 
 
 .container{
-    height: 57rem;
-    width: 100%;
     background: #093132;
     position: relative;
 
+}
+.container .cover{
+    height: 57rem;
+    width: 100%;
 }
 
 .container .coverside-left h1{
@@ -97,7 +99,7 @@ a{
     height: 30rem;
 }
 .crystals {
- background: url("./data/crystals.svg")no-repeat;
+ background: url("../data/crystals.svg")no-repeat;
  width: 10%;
  height: 50rem;
  position: absolute;
@@ -107,7 +109,7 @@ a{
 
 
 #wave1{
-    background: url('./data/Path4.png')no-repeat;
+    background: url('../data/Path4.png')no-repeat;
     overflow: hidden;
     width: 100%;
     height: 25rem;
@@ -115,7 +117,7 @@ a{
     top:75%
 }
 #wave2{
-    background: url('./data/wave2.svg')no-repeat ;
+    background: url('../data/wave2.svg')no-repeat ;
     overflow: hidden;
     width: 100%;
     height: 35rem;
@@ -123,13 +125,15 @@ a{
     top:90%
 }
 .section1{
-    background:#093132;
-    height: 50rem;
-    width: 100%;
+    /* background:#093132; */
     position: relative;
 }
+.section1 .section-container{
+    height: 50em;
+    width: 100%;
+}
 .section1 .big-crystal{
-    background: url('./data/crystal.svg')no-repeat;
+    background: url('../data/crystal.svg')no-repeat;
     overflow: hidden;
     width: 40%;
     height: 30rem;
@@ -138,30 +142,30 @@ a{
     left: 45%;
     transform: translate(-50px,-50%);
 }
+#wave3{
+    background: url('../data/wave3.png')no-repeat ;
+    width: 100%;
+    height: 35rem;
+    position: absolute;
+    top: 68%;
+}
 
 /* section1 end */
 
 
 /* section2  */
-
 .section2{
-    width: 100%;
-    height: 100rem;
     background: white;
     position: relative;
 }
-
-#wave3{
-    background: url('./data/wave3.png')no-repeat ;
-    overflow: hidden;
-    width: 100%;
-    height: 35rem;
-    position: absolute;
-    top: 65%;
+.section2 .white-space{
+    background: white;
+    height: 50rem;
 }
 .section2 .title{
-    position: relative;
-    top: -15%;
+    position: absolute;
+    top: -18%;
+    left: 35%;
 }
 .section2 .title h1{
     color: black;
@@ -169,22 +173,22 @@ a{
     font-weight: normal;
     text-transform: uppercase;
     text-align: center;
-    padding: 10px;
+    
 }
 
 /* content about us */
 
 .section2 .content-aboutus{
     width: 100%;
-    position: relative;
-    top: -10%;
+    
 }
 .section2 .content-aboutus .about{
     width: 40%;
     position: absolute;
     left: 190px;
-
+    margin-top: 60px;
 }
+
 .section2 .content-aboutus h3{
     font-size: 64px;
     font-weight: lighter;
@@ -195,4 +199,40 @@ a{
     font-family: Gafata;
     font-style: normal;
     color: #106D1A;
+}
+
+
+
+/* section3 */
+
+.section3{
+    background: white;
+    position: relative;
+}
+.section3 .white-space{
+    width: 100%;
+    height: 50rem;
+}
+.section3 .white-space .container-boxs{
+
+    width: 840px;
+    height: 374px;
+    background: #FFFFFF;
+    box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    position: absolute;
+    left: 25%;
+}
+.section3 .box-flot{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.section3 .box{
+    width: 236px;
+    height: 221px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 0px 31px rgba(0, 0, 0, 0.07);
+    border-radius: 15px;
+    margin-top: 10%;
 }
