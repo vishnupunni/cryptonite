@@ -1,10 +1,10 @@
 body{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    background: #093132;
+    box-sizing: border-box;background: #fff;
 }
 h1{
+    font-family: Gafata;
     padding: 0;
     margin: 0;
 }
@@ -23,8 +23,8 @@ a{
     background: #fff;
     display: flex;
     align-items: center;
-    justify-content: space-around;
     height: 100px;
+    position: relative;
 }
 .nav-bar .nav-logo{
     margin-top: 50px;
@@ -52,11 +52,8 @@ a{
    
 }
 .nav-bar .nav-login{
-    background: linear-gradient(0deg, #7FF272, #7FF272);
-    /* width: 111px;
-    height: 35px; */
-    border-radius: 100px;
-    padding: 20px 51px;
+    position: absolute;
+    right: 0;
 }
 /* end of nav */
 
@@ -64,90 +61,70 @@ a{
 
 
 .container{
-    background: #093132;
     position: relative;
 
 }
 .container .cover{
-    height: 57rem;
+    background: url('./svg\ data/wave1.svg')no-repeat center;
+    background-size: cover;
+    height: 1196.42px;
     width: 100%;
+}
+.coverside-left{
+    position: absolute;
+    top: 20%;
+    width: 1017px;
+    height: 408px;
+    
 }
 
 .container .coverside-left h1{
-    text-transform: uppercase;
-    color: seashell;
-    margin: 0;
-    font-size: 86px;
-    font-family: Franklin Gothic Medium;
-    padding: 1.5em 0 0 1.5em;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 108px;
+    color: #FAFAFA;
 }
 .getstarted {
     background: #7FF272;
     border-radius: 100px;
-    position: absolute;
     width: 199.76px;
     height: 73.63px;
+    position: absolute;
     left: 190px;
-    top: 364px;
+    bottom: -50%;
     display: flex;
     align-items: center;
     justify-content: center;
     
 }
-.backgorund-design{
+/*Trusted Partners */
+.container .content{
     width: 100%;
-    height: 30rem;
+    height: 300px;
 }
-.crystals {
- background: url("../data/crystals.svg")no-repeat;
- width: 10%;
- height: 50rem;
- position: absolute;
- top: 40%;
- 
+.container .content h1{
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48.0812px;
 }
 
 
-#wave1{
-    background: url('../data/Path4.png')no-repeat;
-    overflow: hidden;
-    width: 100%;
-    height: 25rem;
-    position: absolute;
-    top:75%
-}
-#wave2{
-    background: url('../data/wave2.svg')no-repeat ;
-    overflow: hidden;
-    width: 100%;
-    height: 35rem;
-    position: absolute;
-    top:90%
-}
-.section1{
-    /* background:#093132; */
-    position: relative;
-}
 .section1 .section-container{
-    height: 50em;
-    width: 100%;
+    width: 375px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
 }
 .section1 .big-crystal{
-    background: url('../data/crystal.svg')no-repeat;
-    overflow: hidden;
-    width: 40%;
-    height: 30rem;
-    position: absolute;
-    top: 30%;
-    left: 45%;
-    transform: translate(-50px,-50%);
-}
-#wave3{
-    background: url('../data/wave3.png')no-repeat ;
+    background:url(../cryptonite/png\ data/group.png)no-repeat;
+    background-size: cover;
     width: 100%;
-    height: 35rem;
-    position: absolute;
-    top: 68%;
+    height: 623px;
 }
 
 /* section1 end */
@@ -164,7 +141,7 @@ a{
 }
 .section2 .title{
     position: absolute;
-    top: -18%;
+    top: -10%;
     left: 35%;
 }
 .section2 .title h1{
