@@ -1,9 +1,17 @@
+/* founts
+Poppins 400 500 700 regular semi-blod bold
+Gafata
+Open Sans
+
+*/
+
+
 body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;background: #fff;
 }
-h1{
+h1,p{
     font-family: Gafata;
     padding: 0;
     margin: 0;
@@ -24,10 +32,9 @@ a{
     display: flex;
     align-items: center;
     height: 100px;
-    position: relative;
 }
 .nav-bar .nav-logo{
-    margin-top: 50px;
+    margin: 45px 0 0 237px;
 }
 .nav-bar #logo{
     background: url('../data/logo.svg')no-repeat;
@@ -38,6 +45,8 @@ a{
 .nav-list{
     list-style: none;
     display: flex;
+    position: absolute;
+    right: 530px;
 }
 .nav-iterm{
     margin: 0 3rem;
@@ -47,13 +56,34 @@ a{
     margin-right: 0;
 }
 .nav-iterm a{
-    color: #333333;
+    color: #000000;
     text-transform: uppercase;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: regular;
    
 }
 .nav-bar .nav-login{
     position: absolute;
-    right: 0;
+    right: 237px;
+    width: 243px;
+    height: 80px;
+    border: 1px solid #093132;
+    border-radius: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-login a{
+    width: 166.26px;
+    height: 26px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #093132;
 }
 /* end of nav */
 
@@ -67,37 +97,69 @@ a{
 .container .cover{
     background: url('./svg\ data/wave1.svg')no-repeat center;
     background-size: cover;
-    height: 1196.42px;
+    height: 1199px;
     width: 100%;
 }
 .coverside-left{
     position: absolute;
     top: 20%;
-    width: 1017px;
+    left: 236px;
+    width: 739px;
     height: 408px;
     
 }
 
 .container .coverside-left h1{
     font-style: normal;
-    font-weight: normal;
-    font-size: 96px;
-    line-height: 108px;
-    color: #FAFAFA;
+    font-weight: bold;
+    font-size: 90px;
+    line-height: 135px;
+    color: #FFFFFF;
+    line-height: 135px;
+}
+.container .coverside-left p{
+    width: 769px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: regular;
+    font-size: 22px;
+    line-height: 40px;
+/* or 182% */
+
+
+color: #FFFFFF;
+}
+#cover-text{
+    position: absolute;
+    left: 4px;
 }
 .getstarted {
     background: #7FF272;
-    border-radius: 100px;
-    width: 199.76px;
-    height: 73.63px;
+    border-radius: 80px;
+    width: 284px;
+    height: 80px;
     position: absolute;
-    left: 190px;
+    left: 1px;
     bottom: -50%;
     display: flex;
     align-items: center;
     justify-content: center;
     
 }
+.getstarted #button-anim{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 39px;
+    text-transform: uppercase;
+    color: #000000;
+}
+#button-anim span{
+    padding: 1px;
+}
+
+
 /*Trusted Partners */
 .container .content{
     width: 100%;
@@ -108,9 +170,30 @@ a{
     font-family: Poppins;
     font-style: normal;
     font-weight: bold;
-    font-size: 48.0812px;
+    font-size: 48px;
+}
+#partners{
+    background: url(../cryptonite/png\ data/partners.png) no-repeat;
+    width: 1470px;
+    height: 299px;
+    position: absolute;
+    left: 213px;
 }
 
+/* section1 */
+#section1-space{
+    background: url('./svg\ data/wave1.svg')no-repeat center;
+    background-size: cover;
+    height: 1315.89px;
+    width: 100%;
+}
+.section1{
+    width: 1403px;
+    height: 843px;
+    position: absolute;
+    top: 258px;
+    left: 268px;
+}
 
 .section1 .section-container{
     width: 375px;
@@ -120,11 +203,126 @@ a{
     transform: translate(-50%, -50%);
 
 }
-.section1 .big-crystal{
-    background:url(../cryptonite/png\ data/group.png)no-repeat;
-    background-size: cover;
+/* .section1 .big-crystal{
+    background:url(../cryptonite/png\ data/crystal.png)no-repeat;
     width: 100%;
     height: 623px;
+} */
+#line1{
+    width: 156px;
+    height: 1px;
+    background: #7FF272;
+    position: absolute;
+    top: 259px;
+    left: 390px;
+    transform: rotate(30deg);
+}
+#line2{
+    width: 156px;
+    height: 1px;
+    background: #7FF272;
+    position: absolute;
+    top: 579px;
+    left: 390px;
+    transform: rotate(145deg);
+}
+#line3{
+    width: 156px;
+    height: 1px;
+    background: #7FF272;
+    position: absolute;
+    top: 259px;
+    left: 730px;
+    transform: rotate(145deg);
+}
+#line4{
+    width: 156px;
+    height: 1px;
+    background: #7FF272;
+    position: absolute;
+    top: 569px;
+    left: 730px;
+    transform: rotate(30deg);
+}
+.section1 .box1{
+    width: 367px;
+    height: 284px;
+}
+.section1 .box2{
+    width: 390px;
+    height: 357px;
+    position: absolute;
+    /* top: 444px; */
+    bottom: 0;
+}
+.section1 .box3{
+    width: 487px;
+    height: 318px;  
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.section1 .box4{
+    width: 354px;
+    height: 343px;
+    position: absolute;
+    right: 60px;
+    top: 444px;
+}
+.section1 .box1 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 94px;
+    height: 101px;
+}
+.section1 .box2 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 94px;
+    height: 101px;
+}
+.section1 .box3 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 94px;
+    height: 101px;
+}
+.section1 .box4 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 94px;
+    height: 101px;
+}
+.section1 h3{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 40px;
+    /* identical to box height, or 105% */
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.section1 p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 40px;
+    /* or 182% */
+
+    text-align: center;
+
+    color: #FFFFFF;
 }
 
 /* section1 end */
@@ -138,19 +336,6 @@ a{
 .section2 .white-space{
     background: white;
     height: 50rem;
-}
-.section2 .title{
-    position: absolute;
-    top: -10%;
-    left: 35%;
-}
-.section2 .title h1{
-    color: black;
-    font-size: 90px;
-    font-weight: normal;
-    text-transform: uppercase;
-    text-align: center;
-    
 }
 
 /* content about us */
@@ -177,39 +362,55 @@ a{
     font-style: normal;
     color: #106D1A;
 }
+.section2 .about-img{
+    width: 656px;
+    height: 518px;
+    background:url(../cryptonite/png\ data/about.png) ;
+    position: absolute;
+    right: 229px;
+    top: 93px;
+
+}
 
 
 
 /* section3 */
-
-.section3{
-    background: white;
+/*lilian's addittion*/
+/*market section*/
+.market-section {
+    background-color: white;
     position: relative;
+    height: 400px;
 }
-.section3 .white-space{
+.market-content {
+    margin: 0px 240px;
+}
+.market-info {
     width: 100%;
-    height: 50rem;
 }
-.section3 .white-space .container-boxs{
+.coins {
+    float: left;
+    width: 48%;
 
-    width: 840px;
-    height: 374px;
-    background: #FFFFFF;
-    box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.1);
-    border-radius: 30px;
-    position: absolute;
-    left: 25%;
 }
-.section3 .box-flot{
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
+.coins-content {
+    padding-bottom: 50px;
+    padding-left: 10px;
 }
-.section3 .box{
-    width: 236px;
-    height: 221px;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 0px 31px rgba(0, 0, 0, 0.07);
-    border-radius: 15px;
-    margin-top: 10%;
+
+.coin-info h3{
+    font-weight: 700;
+    font-style: normal;
+    font-size: 38px;
+    line-height: 50px;
+    color: #093536;
 }
+.coin-info p{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+}
+
+
+
+
