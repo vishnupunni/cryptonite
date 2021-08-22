@@ -156,6 +156,11 @@ color: #FFFFFF;
     text-transform: uppercase;
     color: #000000;
 }
+.container .coverside-right{
+    position: absolute;
+    right: 50px;
+    top: 20%;
+}
 
 
 /*Trusted Partners */
